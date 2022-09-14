@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:stretchColumns="1,2,3,4,5"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGreen">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:text="No"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:text="@string/col5"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_column="1" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:text="@string/col2"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:text="@string/col3"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:padding="10sp"
+            android:text="@string/col4"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_column="1"/>
+
+
+    </TableRow>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</TableLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Finbit_Android_App</string>
+    <string name="col1">Id</string>
+    <string name="col2">Name</string>
+    <string name="col3">Salary</string>
+    <string name="col4">Age</string>
+    <string name="col5">Image</string>
+    <string name="row1id">001</string>
+</resources>
